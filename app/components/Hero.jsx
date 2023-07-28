@@ -1,10 +1,10 @@
 export default function Hero () {
 
     return (
-        <section className="p-4 bg-cyan-400">
-            <div className="sm:flex-wrap md:space-x-20 p-6 md:px-60 pt-20  bg-red-400 md:columns-2 ">
-                <img  className="rounded-md  " alt="hero" src="/images/vero.jpg"/>
-            <div className="text-center md:text-left ml-0 pt-4 bg-orange-200">
+        <section className=" p-4 bg-cyan-400">
+            <div className=" md:flex-shrink-0 md:space-x-20 p-6 md:px-60 pt-20  bg-red-400 md:columns-2 ">
+                <img  className="object-contain rounded-md  " alt="hero" src="/images/vero.jpg"/>
+            <div className="rows-1 columns-1 text-center md:text-left ml-0 pt-4 bg-orange-200">
                 <h1>VERONICA DE FELICE</h1>
                 <h2>Software Engineer</h2>
                 <h3>South Florida</h3>
