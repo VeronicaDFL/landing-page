@@ -3,8 +3,10 @@ export default function Hero () {
     return (
         <section className=" p-4 bg-cyan-400">
             <div className=" md:flex-shrink-0 md:space-x-20 p-6 md:px-60 pt-20  bg-red-400 md:columns-2 ">
-                <img  className="object-contain rounded-md  " alt="hero" src="/images/vero.jpg"/>
-            <div className="rows-1 columns-1 text-center md:text-left ml-0 pt-4 bg-orange-200">
+                <div className="relative bg-cyan-700 ">
+                <img  className="absolute rounded-md  object-cover w-full h-90" alt="hero" src="/images/vero.jpg"/>
+                </div>
+            <div className=" text-center md:text-left ml-0 pt-4 bg-orange-200">
                 <h1>VERONICA DE FELICE</h1>
                 <h2>Software Engineer</h2>
                 <h3>South Florida</h3>
